@@ -1,0 +1,498 @@
+
+
+Error log timestamp 3/2/2007 18:53:9
+
+The registers were:
+EIP =  0x10018169
+ESP =  0x0082f954
+EBP =  0x0082f964
+EAX =  0x00bf8934
+EBX =  0xfffff589
+ECX =  0x00d09584
+EDX =  0x00ad1f72
+EDI =  0x00e88000
+ESI =  0xfffd5871
+CS  =  0x00000167
+DS  =  0x0000016f
+ES  =  0x0000016f
+SS  =  0x0000016f
+End Registers 
+
+
+
+Error log timestamp 3/2/2007 18:53:09
+Message 1001: 
+a non-continuable protection violation has occurred. Check ERROR.LOG file.
+
+
+Error log timestamp Saturday 03-03-07 06:43:25 AM
+
+Runtime error: Handle #dec already in use
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Handle #dec already ...'> 
+BasicProgram(Object)>>error: <'Handle #dec already ...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Handle #dec already ...'> 
+BasicProgram(Object)>>error: <'Handle #dec already ...'> 
+[] in OpenCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[dec]'> 
+BasicProgram>>handlerName: <'[dec]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[dec]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[dec]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicWindow>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <3064> 
+LibButton(ControlPane)>>asyncControlEvent: <0> with: <3064> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Saturday 03-03-07 07:24:57 AM
+
+Runtime error: Branch label not found: [loop]
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Branch label not fou...'> 
+BasicProgram(Object)>>error: <'Branch label not fou...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Branch label not fou...'> 
+BasicProgram(Object)>>error: <'Branch label not fou...'> 
+BasicProgram>>runError: <'Branch label not fou...'> 
+[] in BasicProgram>>init
+[] in BasicValueManager>>indexFromName:
+LinearHashTable>>lookUpValue: <'[loop]'> for: <aDictionary> ifAbsent: <aBlockClosure> 
+Dictionary>>at: <'[loop]'> ifAbsent: <aBlockClosure> 
+BasicValueManager>>indexFromName: <'[loop]'> 
+BasicValueReference>>unused: <aBasicValueManager> 
+BasicValueReference>>for: <aBasicValueManager> 
+BasicValueManager>>atReference: <aBasicValueReference> 
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[decch]'> 
+BasicProgram>>handlerName: <'[decch]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[decch]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[decch]'> callParameters: <anOrderedCollection> 
+LibRadioButton>>click
+Message>>perform
+Message>>evaluate
+LibRadioButton(Object)>>triggerEvent: <#turnedOn> 
+LibRadioButton(RadioButton)>>triggerClickedEvent
+LibRadioButton(Button)>>notifyClicked: <1940> 
+LibRadioButton(Object)>>perform: <#notifyClicked:> with: <1940> 
+LibRadioButton(ControlPane)>>asyncControlEvent: <0> with: <1940> 
+Message>>perform
+
+
+Error log timestamp Saturday 03-03-07 12:28:51 PM
+
+Runtime error: Branch label not found: [conshot]
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Branch label not fou...'> 
+BasicProgram(Object)>>error: <'Branch label not fou...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Branch label not fou...'> 
+BasicProgram(Object)>>error: <'Branch label not fou...'> 
+BasicProgram>>runError: <'Branch label not fou...'> 
+[] in BasicProgram>>init
+[] in BasicValueManager>>indexFromName:
+LinearHashTable>>lookUpValue: <'[conshot]'> for: <aDictionary> ifAbsent: <aBlockClosure> 
+Dictionary>>at: <'[conshot]'> ifAbsent: <aBlockClosure> 
+BasicValueManager>>indexFromName: <'[conshot]'> 
+BasicValueReference>>unused: <aBasicValueManager> 
+BasicValueReference>>for: <aBasicValueManager> 
+BasicValueManager>>atReference: <aBasicValueReference> 
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[shoT]'> 
+BasicProgram>>handlerName: <'[shoT]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[shoT]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[shoT]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicWindow>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <3032> 
+LibButton(ControlPane)>>asyncControlEvent: <0> with: <3032> 
+
+
+Error log timestamp Saturday 03-03-07 12:32:03 PM
+
+Runtime error: Branch label not found: [shoTT]
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Branch label not fou...'> 
+BasicProgram(Object)>>error: <'Branch label not fou...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Branch label not fou...'> 
+BasicProgram(Object)>>error: <'Branch label not fou...'> 
+BasicProgram>>runError: <'Branch label not fou...'> 
+[] in BasicProgram>>init
+[] in BasicValueManager>>indexFromName:
+LinearHashTable>>lookUpValue: <'[shoTT]'> for: <aDictionary> ifAbsent: <aBlockClosure> 
+Dictionary>>at: <'[shoTT]'> ifAbsent: <aBlockClosure> 
+BasicValueManager>>indexFromName: <'[shoTT]'> 
+BasicValueReference>>unused: <aBasicValueManager> 
+BasicValueReference>>for: <aBasicValueManager> 
+BasicValueManager>>atReference: <aBasicValueReference> 
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[shoT]'> 
+BasicProgram>>handlerName: <'[shoT]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[shoT]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[shoT]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicWindow>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <3440> 
+LibButton(Object)>>perform: <#notifyClicked:> with: <3440> 
+
+
+Error log timestamp Saturday 03-03-07 02:50:07 PM
+
+Runtime error: Handle #dec already in use
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Handle #dec already ...'> 
+BasicProgram(Object)>>error: <'Handle #dec already ...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Handle #dec already ...'> 
+BasicProgram(Object)>>error: <'Handle #dec already ...'> 
+[] in OpenCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[dec]'> 
+BasicProgram>>handlerName: <'[dec]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[dec]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[dec]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicWindow>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <228> 
+LibButton(ControlPane)>>asyncControlEvent: <0> with: <228> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp Saturday 03-03-07 02:51:35 PM
+
+Runtime error: Handle #dec already in use
+
+Error(Exception)>>defaultAction
+Error(Exception)>>activateHandler: <anUndefinedObject> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Handle #dec already ...'> 
+BasicProgram(Object)>>error: <'Handle #dec already ...'> 
+BasicProgram>>terminateRun: <anError> 
+[] in BasicProgram>>errorHandlerBlock
+ExceptionHandler>>evaluateResponseBlock: <aBlockClosure> for: <anError> 
+[] in ExceptionHandler>>handle:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>handle: <anError> 
+ExceptionHandler>>findHandler: <anError> 
+Error(Exception)>>activateHandler: <anExceptionHandler> 
+Error(Exception)>>handle
+Error(Exception)>>signal
+Error class(Exception class)>>signal: <'Handle #dec already ...'> 
+BasicProgram(Object)>>error: <'Handle #dec already ...'> 
+[] in OpenCommand>>using:
+[] in BasicProgram>>begin
+ExceptionHandler>>evaluateProtectedBlock: <aBlockClosure> 
+[] in ExceptionHandler>>activateDuring:
+ProtectedFrameMarker(BlockClosure)>>setUnwind: <aBlockClosure> 
+BlockClosure>>invisibleEnsure: <aBlockClosure> 
+ExceptionHandler>>activateDuring: <aBlockClosure> 
+ExceptionHandler class>>handle: <anError class> with: <aBlockClosure> during: <aBlockClosure> 
+BlockClosure>>on: <anError class> do: <aBlockClosure> 
+BasicProgram>>begin
+BasicProgram>>gotoAndIfStoppedBegin: <'[dec]'> 
+BasicProgram>>handlerName: <'[dec]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[dec]'> evaluate: <aBlockClosure> callParameters: <anOrderedCollection> 
+BasicProgram>>submitHandlerName: <'[dec]'> callParameters: <anOrderedCollection> 
+LibButton>>click
+BasicWindow>>click: <aLibButton> 
+LibButton(Button)>>click: <aLibButton> 
+Message>>perform
+Message>>evaluate
+LibButton(Object)>>triggerEvent: <#clicked> 
+LibButton(Button)>>triggerClickedEvent
+LibButton(Button)>>notifyClicked: <312> 
+LibButton(ControlPane)>>asyncControlEvent: <0> with: <312> 
+Message>>perform
+NotificationManager>>empty
+NotificationManager>>runPendingEvents
+NotificationManager>>runEventLoop
+Message>>perform
+Message>>evaluate
+Process>>safelyEvaluate: <aMessage> 
+Process>>evaluate: <aMessage> 
+
+
+Error log timestamp 1/30/2008 15:58:27
+ERROR.LOG
+GPF has occurred
+
+START
+API method: UserDLL >> peekMessage:hwnd:min:max:remove:
+5 arguments.
+5: Smalltalk integer 0 (0x00000000)
+4: Smalltalk integer 0 (0x00000000)
+3: Smalltalk integer 0 (0x00000000)
+2: UndefinedObject 
+1: ByteArray size = 4 ( 12 -16 55 7 )
+
+Stack frames:
+NotificationManager (NotificationManager) >> peek:
+NotificationManager (NotificationManager) >> runPeek
+NotificationManager (NotificationManager) >> runEventLoop
+Message (Message) >> perform
+Message (Message) >> evaluate
+Process (Process) >> safelyEvaluate:
+Process (Process) >> evaluate:
+SystemDictionary (SystemDictionary) >> launch
+End of stack dump
+
+The registers were:
+EIP =  0x7ff21768
+ESP =  0x0082e89c
+EBP =  0x0082e8b8
+EAX =  0x00000000
+EBX =  0x0082e8ec
+ECX =  0x00000000
+EDX =  0x0000892c
+EDI =  0x0082e8a0
+ESI =  0x00008910
+CS  =  0x00000167
+DS  =  0x0000016f
+ES  =  0x0000016f
+SS  =  0x0000016f
+End Registers 
+
+
+
+Error log timestamp 2/1/2008 11:51:6
+
+The registers were:
+EIP =  0x10018169
+ESP =  0x0082f9dc
+EBP =  0x0082f9f4
+EAX =  0x00c06490
+EBX =  0xfffff5b3
+ECX =  0x00d1cfc8
+EDX =  0x00ac1e72
+EDI =  0x00dbada8
+ESI =  0x07023788
+CS  =  0x00000167
+DS  =  0x0000016f
+ES  =  0x0000016f
+SS  =  0x0000016f
+End Registers 
+
+
+
+Error log timestamp 2/1/2008 11:51:06
+Message 1001: 
+a non-continuable protection violation has occurred. Check ERROR.LOG file.
+
+
+Error log timestamp 2/1/2008 16:25:24
+
+The registers were:
+EIP =  0x10018169
+ESP =  0x0082f9dc
+EBP =  0x0082f9f4
+EAX =  0x00be2434
+EBX =  0xffffefc5
+ECX =  0x00d09814
+EDX =  0x00ac1f70
+EDI =  0x00e1b5c8
+ESI =  0x07023788
+CS  =  0x00000167
+DS  =  0x0000016f
+ES  =  0x0000016f
+SS  =  0x0000016f
+End Registers 
+
+
+
+Error log timestamp 2/1/2008 16:25:24
+Message 1001: 
+a non-continuable protection violation has occurred. Check ERROR.LOG file.
+
+
+Error log timestamp 2/21/2008 19:12:09
+ERROR.LOG
+GPF has occurred
+
+START
+API method: UserDLL >> showWindow:command:
+2 arguments.
+2: Smalltalk integer 0 (0x00000000)
+1: WindowHandle size = 4 ( 12 5 0 0 )
+
+Stack frames:
+WindowHandle (WindowHandle) >> showWindow:
+WindowHandle (WindowHandle) >> hideWindow
+BasicSourceTopPane (ApplicationWindow) >> closeView
+BasicSourceTopPane (TopPane) >> close
+BasicSourceTopPane (BasicSourceTopPane) >> close
+Message (Message) >> perform
+NotificationManager (NotificationManager) >> empty
+NotificationManager (NotificationManager) >> runPendingEvents
+NotificationManager (NotificationManager) >> runEventLoop
+Message (Message) >> perform
+Message (Message) >> evaluate
+Process (Process) >> safelyEvaluate:
+Process (Process) >> evaluate:
+SystemDictionary (SystemDictionary) >> launch
+End of stack dump
+
+The registers were:
+EIP =  0x7ff21768
+ESP =  0x0082e878
+EBP =  0x0082e894
+EAX =  0x00000000
+EBX =  0x0082e8c8
+ECX =  0x00000000
+EDX =  0x0000b908
+EDI =  0x0082e87c
+ESI =  0x0000b8ec
+CS  =  0x00000167
+DS  =  0x0000016f
+ES  =  0x0000016f
+SS  =  0x0000016f
+End Registers 
+
